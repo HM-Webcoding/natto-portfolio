@@ -1,0 +1,18 @@
+// variable
+// breakpoints
+// reset
+
+@import "./variables.scss";
+@import "./breakpoints";
+@import "./reset";
+
+@import "../component/Navbar/navbar.scss";
+@import "../component/Footer/footer.scss";
+@import "../component/Banner/banner.scss";
+@import "../component/Services/services.scss";
+@import "../component/TeamMember/teamMember.scss";
+@import "../component/Blog/blog.scss";
+@import "../component/Work/work.scss";
+@import "../component/Partner/partner.scss";
+@import "../component/AboutUs/aboutUs.scss"
+

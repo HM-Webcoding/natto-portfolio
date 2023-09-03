@@ -1,0 +1,33 @@
+.partner{
+    padding-top: 120px;
+    @include media-breakpoint-down(sm){
+        padding-top: 50px;
+    }
+    .partner_heading{
+        h2{
+            color: $white;
+            font-size: 48px;
+            span{
+                color: $yellow;
+            }
+            @include media-breakpoint-down(xs){
+                font-size: 32px;
+            }
+        }
+    }
+    .partner_logo{
+        img{
+            width: 294px;
+            margin-right: 0px;
+        }
+        padding: 40px 0; 
+    }
+    p{
+        color: $white;
+        font-size: 26px;
+        text-align: center;
+    }
+    .slick-arrow{
+        display: none !important;
+    }
+}

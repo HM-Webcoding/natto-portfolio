@@ -1,0 +1,104 @@
+.work{
+    padding-top: 120px;
+    .work_heading{
+        h2{
+            font-weight: 700;
+            font-size: 42px;
+            color: $white;
+            span{
+                color: $yellow;
+            }
+        }
+        p{
+            color: $darkWhite;
+            font-size: 18px;
+            font-weight: 400;
+            padding: 24px 0 40px 0;
+        }
+    }
+    .Work_video{
+        position: relative;
+        @include media-breakpoint-down(lg){
+            margin-bottom: 20px;
+        }
+        img{
+            width: 100%;
+            height: 100%;
+            border-radius: 8px;
+            
+        }
+        &::after{
+            position:absolute;
+            content: '';
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(180deg, rgba(196, 196, 196, 0.00) 0.33%, #C4C4C4 100%);
+        }
+        .video_icon{
+            position: absolute;
+            width: 102px;
+            height: 102px;
+            background-color: $primaryColor;
+            border-radius: 50%;
+            top: 50%;
+            left: 50%;
+            border: 10px solid #C4C4CA;
+            display: flex;
+            align-items: center;
+            transform: translate(-50%, -50%);
+            svg{
+                height: 102px;
+                width: 102px;
+                fill: #E7E4F1; 
+                border: 10px #C4C4CA;
+            }
+        }   
+        @include media-breakpoint-down(md){
+            margin-bottom: 20px;
+        }
+    }
+    .work_content{
+        img{
+            width: 100%;
+            border-radius: 8px;
+            @include media-breakpoint-down(sm){
+                display: none;
+            }
+        }
+        .work_box{
+            padding: 30px;
+            background-color: $primaryColor;
+            border-radius: 8px;
+            margin-bottom: 24px;
+            @include media-breakpoint-between(md, xl){
+                padding: 15px;
+                margin-bottom: 10px;
+            }
+            h3{
+                color: $white;
+                font-weight: 700;
+                font-size: 24px;
+                padding-right: 150px;
+                @include media-breakpoint-between(md, xl){
+                    padding-right: 0;
+                }
+                span{
+                    color: $yellow;
+                }
+                @include media-breakpoint-down(md){
+                    padding-right: 0px;
+                }
+            }
+            p{
+                font-size: 18px;
+                color: $darkWhite;
+                padding-top: 16px;
+                @include media-breakpoint-between(md, xl){
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}

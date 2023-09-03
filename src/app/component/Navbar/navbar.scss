@@ -1,0 +1,13 @@
+.navbar {
+    padding-top: 30px !important;
+    .navbar-nav{
+        a{
+            color: $white !important;
+            font-size: 18px;
+            padding: 0 25px;
+            &:last-child{
+                padding-right: 0;
+            }
+        }
+    }
+}

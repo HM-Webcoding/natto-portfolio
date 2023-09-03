@@ -1,0 +1,118 @@
+.footer{
+    padding: 100px 0;
+    .footer_heading{
+        padding-bottom: 52px;
+        @include media-breakpoint-down(xs){
+            padding-top: 20px;
+        }
+        h2{
+            font-size: 20px;
+            color: $white;
+            font-weight: 700;
+        }
+        p{
+            font-size: 18px;
+            color: $darkWhite;
+            padding-top: 53px;
+            padding-right: 30px;
+            @include media-breakpoint-between(md, xl){
+                font-size: 14px;
+                padding-right: 0;
+             }
+        }
+    }
+    .footer_content{
+        p{
+            font-size: 18px;
+            line-height: 30px;
+            color: $darkWhite;
+            padding-right: 0px;
+            padding-bottom: 24px;
+            &:last-child{
+                padding-right: 60px;
+            }
+            @include media-breakpoint-between(md, xl){
+               font-size: 15px;
+            }
+        }
+        a{
+            display: block;
+            color: $white;
+            font-size: 18px;
+            padding-bottom: 15px;
+            &:last-child{
+                padding-bottom: 0;
+            }
+        }
+        .input{
+            position: relative;
+            input{
+                position: relative;
+                outline: none;
+                height: 64px;
+                width: 100%;
+                padding: 20px 60px 20px 20px;
+                border-radius: 8px;
+                font-size: 18px;
+                color: $placeholderColor;
+                &::placeholder{
+                    color: $placeholderColor;
+                    font-size: 18px;
+                }
+                border: none;
+                
+            }
+            .newsletter_icon{
+                position: absolute;
+                background-color: $primaryColor;
+                top: 0;
+                right: 0;
+                svg{
+                    width: 19px;
+                    height: 19px;
+                    color: $white !important;
+                }
+                padding: 20px 18px;
+                border-top-right-radius: 6px;
+                border-bottom-right-radius: 6px;
+                border: none;
+                outline: none;
+            }
+        }
+        .social_media{
+            display: flex;
+            padding-top: 25px;
+            .social_icons{
+                width: 50px;
+                height: 50px;
+                background-color: $white;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-right: 15px;
+                @include media-breakpoint-between(md, xl){
+                    width: 40px;
+                    height: 40px;
+                }
+                a{
+                    display: flex;
+                    align-items: center;
+                }
+                transition: all linear .3s;
+                &:hover{
+                    background-color: $primaryColor;
+                    svg{
+                        color: $white;
+                    }
+                }
+                svg{
+                    width: 19px;
+                    height: 19px;
+                    color: $bodyColor;
+                }
+            }
+            
+        }
+    }
+}
