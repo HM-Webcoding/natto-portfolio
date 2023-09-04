@@ -30,7 +30,7 @@ const Services = () => {
             <div className='row'>
                 <div className='col-lg-5'>   
                         <div className='servics_image'>
-                            <Image src={servicsImg} />
+                            <Image src={servicsImg} alt='service image' />
                             <div className='experiance_box'>
                                 <h3>10+</h3>
                                 <p>Years of experience</p>

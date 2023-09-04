@@ -28,7 +28,7 @@ const Work = () => {
             <div className='row'>
                 <div className='col-lg-7'>
                     <div className='Work_video'>
-                        <Image src={workImg}/>
+                        <Image src={workImg} alt='work image'/>
                         <div className='video_icon'>
                             <BsPlayCircleFill/>
                         </div>
@@ -41,8 +41,8 @@ const Work = () => {
                   <p className={montserrat.className}>There are many variations of passages of Lorem Ipsum availabl , but the majority have suffered alteration in some for by.</p>
                 </div>
                 <div className='row'>
-                  <div className='col-sm-8'><Image src={workImg2}/></div>
-                  <div className='col-sm-4'><Image src={workImg3}/></div>
+                  <div className='col-sm-8'><Image src={workImg2} alt='work image'/></div>
+                  <div className='col-sm-4'><Image src={workImg3} alt='work image'/></div>
                 </div>
               </div>
             </div>

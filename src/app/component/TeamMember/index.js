@@ -25,14 +25,14 @@ const TeamMember = () => {
             <div className='row'>
                 <div className='col-lg-5'>
                     <div className='team_img'>
-                        <Image src={teamImg}/>
+                        <Image src={teamImg} alt='team image'/>
                     </div>
                 </div>
                 <div className='col-lg-7 col-xl-6 offset-xl-1' >
                     <div className='team_right'>
                         <div className='team_content'>
                             <h3 className={montserrat.className}>What provide to <span>our client</span></h3>
-                            <p className={montserrat.className}>There are many variations of passages of Lorem Ipsum availabl , but the majority have suffered alteration in some for by injected humour, or randomised words which don't look.There are many variations of passages.</p>
+                            <p className={montserrat.className}>There are many variations of passages of Lorem Ipsum availabl , but the majority have suffered alteration in some for by injected humour, or randomised words which dont look.There are many variations of passages.</p>
                         </div>
                         <div className='team_content'>
                             <h3 className={montserrat.className}>Optimize for quickly <span>display</span>.</h3>

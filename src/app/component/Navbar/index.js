@@ -14,7 +14,7 @@ const Menubar = () => {
      <Navbar >
         <Container>
           <Navbar.Brand href="#home">
-            <Image src={logo}></Image>
+            <Image src={logo} alt='blog image' />
           </Navbar.Brand>
           <Nav className="ms-auto">
             {

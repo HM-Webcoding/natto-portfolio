@@ -54,14 +54,14 @@ const Partner = () => {
             
             <div className='partner_logo'>
                 <Slider {...settings}>
-                <Image src={partnerImg}/>
-                <Image src={partnerImg2}/>
-                <Image src={partnerImg}/>
-                <Image src={partnerImg2}/>
-                <Image src={partnerImg}/>
-                <Image src={partnerImg2}/>
-                <Image src={partnerImg}/>
-                <Image src={partnerImg2}/>
+                <Image src={partnerImg} alt='partner image'/>
+                <Image src={partnerImg2} alt='partner image'/>
+                <Image src={partnerImg} alt='partner image'/>
+                <Image src={partnerImg2} alt='partner image'/>
+                <Image src={partnerImg} alt='partner image'/>
+                <Image src={partnerImg2} alt='partner image'/>
+                <Image src={partnerImg} alt='partner image'/>
+                <Image src={partnerImg2} alt='partner image'/>
                 </Slider>
 
             </div>

@@ -67,7 +67,7 @@ const Blog = () => {
             </div>
             <Slider {...settings}>
             <div className='blog_content'>
-              <Image src={blogImg1}/>
+              <Image src={blogImg1} alt='blog image'/>
               <h3 className={montserrat.className}>Bitcoin and Economic Freedom</h3>
               <div className='d-flex justify-content-between'>
                 <Link href="#" className={montserrat.className}>Read more</Link>
@@ -75,7 +75,7 @@ const Blog = () => {
               </div>
             </div>
             <div className='blog_content'>
-              <Image src={blogImg1}/>
+              <Image src={blogImg1} alt='blog image'/>
               <h3 className={montserrat.className}>Bitcoin and Economic Freedom</h3>
               <div className='d-flex justify-content-between'>
                 <Link href="#" className={montserrat.className}>Read more</Link>
@@ -83,7 +83,7 @@ const Blog = () => {
               </div>
             </div>
             <div className='blog_content'>
-              <Image src={blogImg1}/>
+              <Image src={blogImg1} alt='blog image'/>
               <h3 className={montserrat.className}>Bitcoin and Economic Freedom</h3>
               <div className='d-flex justify-content-between'>
                 <Link href="#" className={montserrat.className}>Read more</Link>
@@ -91,7 +91,7 @@ const Blog = () => {
               </div>
             </div>
             <div className='blog_content'>
-              <Image src={blogImg1}/>
+              <Image src={blogImg1} alt='blog image'/>
               <h3 className={montserrat.className}>Bitcoin and Economic Freedom</h3>
               <div className='d-flex justify-content-between'>
                 <Link href="#" className={montserrat.className}>Read more</Link>
